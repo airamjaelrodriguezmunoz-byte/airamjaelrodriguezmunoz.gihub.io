@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Title</title>
+        <style>
+            +{
+                margin: 0;
+                padding: 0;
+            }    
+            header, nav, main, footer{
+                width: 90%;
+                padding: 4%;
+                background-color: #540804;
+                color: #fffcf2;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header, footer{
+                text-align: center;
+            }
+            nav{
+                background-color: #fffcf2;
+            }
+            /* - - - - - MENU - - - - */
+            nav ul{
+                text-align: center;
+            }
+            nav ul li{
+                list-style-type: none;
+                display: inline-block;
+                width: 10%;
+                background-color: #540804;
+                padding: 1%;
+                text-align: center;
+            }
+            
+            main{
+                height: auto;
+                background-color:#81171b;
+                color: #fffcf2;
+            }
+            main section{
+                width: 80%;
+                height: auto;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 8%;
+            }
+            main section h2{
+                margin-bottom: 3%;
+            }
+            /*cambia el color del enlace cuando no ha sido visitado */
+            main section a:link{
+                text-decoration: none;
+                color: peru;
+                font-weight: bold;
+            }
+            main section a:hover{
+                color: limegreen;
+            }
+            nav ul li a:link nav ul li a:visited, main section nav ul a:link{
+            text-decoration: none;
+            color: aliceblue;
+            }
+            nav ul a:hover, main section nav ul li a:hover{
+                color: orange;
+                font-weight: bolder;
+                font-size: x-large;
+            }
+            main section nav{
+                width: 82%;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Práctica 3: Enlaces</h1>
+            <a href="../index.html"><img class="img-header" src="../img/homa.png"></a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="../html/practica_uno.html">Formatos</a></li>
+                <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/enlaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imágenes</a></li>
+                <li><a href="../html/audio.html">Audio</a></li>
+                <li><a href="../html/video.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2 id="Externo"> Enlace Externo</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nisi elit, rutrum a felis a,
+                pulvinar fermentum metus. Suspendisse non scelerisque quam. Duis condimentum, dui sed maximus bla
+                ndit, justo tortor scelerisque sapien, vitae rutrum sem sem eu nisi. Duis convallis nulla non vel
+                it placerat fermentum. <a href="http://www.buap.mx">Benemérita Universidad Autónoma de Puebla</a>
+                Cras vel iaculis erat, vitae gravida velit. Praesent vestibulum nibh eu tor tor volutpat lobortis.
+                Maecenas ut augue id nibh scelerisque dictum. In fermentum leo ac arcu lortis faucibus. Vestibult
+                faucibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam malesuada 
+                laoreet ultrices. In interdum sapien et justo el eifend, sit. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nisi elit, rutrum a felis a,
+                pulvinar fermentum metus. Suspendisse non scelerisque quam. Duis condimentum, dui sed maximus bl
+                andit, justo tortor scelerisque
+                sapien, vitae rutrum sem sem eu nisi. Duis convallis nulla non v
+                elit placerat fermentum. Cras vel iaculis erat, vitae gravida velit. Praesent vestibulum nibh eu
+                tortor volutpat lobortis. Maecenas ut augue id nibh scelerisque dictum. In fermentum leo ac arcu
+                lobortis faucibus. Vestibulum vestibulum ultrices nunc eget faucibus. Interdum et malesuada fames
+                ac ante ipsum primis in faucibus. Nullam malesuada laoreet ultrices. In interdum sapien et justo
+                eleifend, sit. </p>
+            </section>
+            <section>
+                <h2 id="Interno">Enlace Interno</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nisi elit, rutrum a felis a,
+                pulvinar fermentum metus. Suspendisse non scelerisque quam. Duis condimentum, dui sed maximus bl
+                andit, justo tortor scelerisque sapien,<a href="practica_uno.html">Formatos de Texto</a>
+                vitae rutrum sem sem eu nisi. Duis convallis nulla non v
+                elit placerat fermentum. Cras vel iaculis erat, vitae gravida velit. Praesent vestibulum nibh eu
+                tortor volutpat lobortis. Maecenas ut augue id nibh scelerisque dictum. In fermentum leo ac arcu
+                lobortis faucibus. Vestibulum vestibulum ultrices nunc eget faucibus. Interdum et malesuada fames
+                ac ante ipsum primis in faucibus. Nullam malesuada laoreet ultrices. In interdum sapien et justo
+                eleifend, sit. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nisi elit, rutrum a felis a,
+                pulvinar fermentum metus. Suspendisse non scelerisque quam. Duis condimentum, dui sed maximus bl
+                andit, justo tortor scelerisque sapien, vitae rutrum sem sem eu nisi. Duis convallis nulla non v
+                elit placerat fermentum. Cras vel iaculis erat, vitae gravida velit. Praesent vestibulum nibh eu
+                tortor volutpat lobortis. Maecenas ut augue id nibh scelerisque dictum. In fermentum leo ac arcu
+                lobortis faucibus. Vestibulum vestibulum ultrices nunc eget faucibus. Interdum et malesuada fames
+                ac ante ipsum primis in faucibus. Nullam malesuada laoreet ultrices. In interdum sapien et justo
+                eleifend, sit. </p>
+            </section>
+            <section>
+                <h2 id="Email">Enlace de correo electronico</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nisi elit, rutrum a felis a,
+                pulvinar fermentum metus. <a href="mailto:airam.rodriguez@alumno.buap.mx">Airam Jael Rodriguez Muñoz</a>
+                Suspendisse non scelerisque quam. Duis condimentum, dui sed maximus bl
+                andit, justo tortor scelerisque sapien, vitae rutrum sem sem eu nisi. Duis convallis nulla non v
+                elit placerat fermentum. Cras vel iaculis erat, vitae gravida velit. Praesent vestibulum nibh eu
+                tortor volutpat lobortis. Maecenas ut augue id nibh scelerisque dictum. In fermentum leo ac arcu
+                lobortis faucibus. Vestibulum vestibulum ultrices nunc eget faucibus. Interdum et malesuada fames
+                ac ante ipsum primis in faucibus. Nullam malesuada laoreet ultrices. In interdum sapien et justo
+                eleifend, sit. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nisi elit, rutrum a felis a,
+                pulvinar fermentum metus. Suspendisse non scelerisque quam. Duis condimentum, dui sed maximus bl
+                andit, justo tortor scelerisque sapien, vitae rutrum sem sem eu nisi. Duis convallis nulla non v
+                elit placerat fermentum. Cras vel iaculis erat, vitae gravida velit. Praesent vestibulum nibh eu
+                tortor volutpat lobortis. Maecenas ut augue id nibh scelerisque dictum. In fermentum leo ac arcu
+                lobortis faucibus. Vestibulum vestibulum ultrices nunc eget faucibus. Interdum et malesuada fames
+                ac ante ipsum primis in faucibus. Nullam malesuada laoreet ultrices. In interdum sapien et justo
+                eleifend, sit. </p>
+            </section>
+            <section>
+                <h2 id="Descarga">Enlace de descarga</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nisi elit, rutrum a felis a,
+                pulvinar fermentum metus. Suspendisse non scelerisque quam. Duis condimentum, dui sed maximus bl
+                andit, justo tortor scelerisque sapien, vitae rutrum sem sem eu nisi. Duis convallis nulla non v
+                elit placerat fermentum.  <a href="pdf//gaceta310-digital.pdf" downland>Gaceta</a>
+                Cras vel iaculis erat, vitae gravida velit. Praesent vestibulum nibh eu
+                tortor volutpat lobortis. Maecenas ut augue id nibh scelerisque dictum. In fermentum leo ac arcu
+                lobortis faucibus. Vestibulum vestibulum ultrices nunc eget faucibus. Interdum et malesuada fames
+                ac ante ipsum primis in faucibus. Nullam malesuada laoreet ultrices. In interdum sapien et justo
+                eleifend, sit. </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nisi elit, rutrum a felis a,
+                pulvinar fermentum metus. Suspendisse non scelerisque quam. Duis condimentum, dui sed maximus bl
+                andit, justo tortor scelerisque sapien, vitae rutrum sem sem eu nisi. Duis convallis nulla non v
+                elit placerat fermentum. Cras vel iaculis erat, vitae gravida velit. Praesent vestibulum nibh eu
+                tortor volutpat lobortis. Maecenas ut augue id nibh scelerisque dictum. In fermentum leo ac arcu
+                lobortis faucibus. Vestibulum vestibulum ultrices nunc eget faucibus. Interdum et malesuada fames
+                ac ante ipsum primis in faucibus. Nullam malesuada laoreet ultrices. In interdum sapien et justo
+                eleifend, sit. </p>
+            </section>
+            <section>
+                <nav>
+                     <ul>
+                        <li><a href="#externo">Externo</a></li>
+                        <li><a href="#interno">Interno</a></li>
+                        <li><a href="#email">Email</a></li>
+                        <li><a href="#descarga">Descarga</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </main>
+        <footer>
+            <h5>Elaborado por Airam Jael Rodríguez Muñoz</h5>
+        </footer>
+    </body>
+</html>

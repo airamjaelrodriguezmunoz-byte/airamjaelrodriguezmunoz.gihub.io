@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Práctica 2 Listas</title>
+        <style type="text/css">
+            *{
+                margin: 0;
+            }
+            header, nav, main, footer{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            header{
+                width: 1200px;
+                height: 100px;
+                background-color: firebrick;
+                padding: 20px;
+                color: beige;
+                text-align: center;
+            }
+            nav{
+                width: 1200px;
+                height: 50px;
+                background-color: antiquewhite;
+                padding: 20px
+            }
+            main{
+                width: 1200px;
+                height: auto;
+                background-color: brown;
+                padding: 20px;
+            }
+            footer{
+                width: 1200px;
+                height: 80px;
+                background-color: black;
+                padding: 20px;
+                color: beige;
+                text-align: center;
+            }
+            section{
+                width: 800px;
+                height: auto;
+                background-color: beige;
+                margin-bottom: 20px;
+                padding: 20px;
+            }
+            main section{
+                margin-left: auto;
+                margin-right: auto;
+            }
+            main section h2{
+                padding-bottom: 20px;
+            }
+            main section p{
+                padding-bottom: 20px;
+            }
+            nav ul{
+                text-align: center;
+            }
+            nav ul li{
+                width: 100px;
+                height: 30px;
+                background-color: maroon;
+                margin-bottom: 10px;
+                list-style-type: none;
+                display: inline-block;
+                color: beige;
+                padding: 5px;
+                text-align: center;
+            }
+            
+            
+        </style>
+    </head>
+    <body>  
+        <header>
+            <h1>PRÁCTICA 2 LISTAS</h1>
+            <a href="../index.html"><img class="img-header" src="../img/homa.png"></a>
+        </header>    
+        <nav>
+            <ul>
+                <li><a href="../html/practica_uno.html">Formatos</a></li>
+                <li><a href="../html/listas.html">Listas</a></li>
+                <li><a href="../html/enlaces.html">Enlaces</a></li>
+                <li><a href="../html/tablas.html">Tablas</a></li>
+                <li><a href="../html/imagenes.html">Imágenes</a></li>
+                <li><a href="../html/audio.html">Audio</a></li>
+                <li><a href="../html/video.html">Video</a></li>
+                <li><a href="../html/formularios.html">Formularios</a></li>
+            </ul>
+        </nav> 
+        <main>
+            <section>
+                <h2>Listas Ordenadas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse tempus risus eu neque sollicitudin consectetur. 
+                Ut vitae scelerisque lacus. Duis rutrum tellus at lectus t
+                incidunt, nec luctus odio hendrerit. Quisque placerat
+                nisi tortor, accumsan placerat felis suscipit ut. Orci
+                varius natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus.</p>
+                <ol>
+                    <li>Americano</li>
+                    <li>Europeo</li>
+                    <li>Asiático</li>
+                    <li>Africano</li>
+                    <li>Oceánico</li>
+                </ol>
+            </section>
+            <section>
+                <h2>Listas Desordenadas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse tempus risus eu neque sollicitudin consectetur. 
+                Ut vitae scelerisque lacus. Duis rutrum tellus at lectus t
+                incidunt, nec luctus odio hendrerit. Quisque placerat
+                nisi tortor, accumsan placerat felis suscipit ut. Orci
+                varius natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus.</p>
+                <ul>
+                    <li>Argentina</li>
+                    <li>España</li>
+                    <li>Italia</li>
+                    <li>Francia</li>
+                    <li>Australia</li>
+                    <li>Estados Unidos</li>
+                    <li>Corea</li>
+                    <li>Congo</li>
+                    <li>Japón</li>
+                    <li>China</li>
+                    <li>México</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Listas anidadas y/o mixtas</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Suspendisse tempus risus eu neque sollicitudin consectetur. 
+                Ut vitae scelerisque lacus. Duis rutrum tellus at lectus t
+                incidunt, nec luctus odio hendrerit. Quisque placerat
+                nisi tortor, accumsan placerat felis suscipit ut. Orci
+                varius natoque penatibus et magnis dis parturient montes,
+                nascetur ridiculus mus.</p>
+                <ol>
+                    <li>Americano
+                        <ul>
+                            <li>Argentina</li>
+                            <li>Estados Unidos</li>
+                            <li>México
+                                <ul>
+                                    <li>Puebla
+                                        <ul>
+                                            <li>Atlixco</li>
+                                            <li>Cholula</li>
+                                            <li>Tlaxcala</li>
+                                            <li>Chignahuapan</li>
+                                            <li>Zacatlan</li>
+                                        </ul>
+                                    </li>
+                                    <li>Veracruz</li>
+                                    <li>Oaxaca</li>
+                                    <li>Monterrey</li>
+                                    <li>Guadalajara</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Europeo
+                        <ul>
+                            <li>España</li>
+                            <li>Italia
+                                <ul>
+                                    <li>Florencia</li>
+                                    <li>Venezia</li>
+                                    <li>Roma</li>
+                                    <li>Sienna</li>
+                                </ul>
+                            </li>
+                            <li>Francia</li>
+                        </ul>
+                    </li>
+                    <li>Asiático
+                        <ul>
+                            <li>China</li>
+                            <li>Japón</li>
+                            <li>Corea   
+                                <ul>
+                                    <li>Seoul</li>
+                                    <li>Busan</li>
+                                    <li>Daegu</li>
+                                    <li>Jeju</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>Africano
+                        <ul>
+                            <li>Congo</li>
+                        </ul>
+                    </li>
+                    <li>Oceánico
+                        <ul>
+                            <li>Australia
+                                <ul>
+                                    <li>Sidney</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ol>
+            </section>
+        </main>
+        <footer>
+            <h5>Elaborado por Airam Jael Rodríguez Muñoz</h5>
+        </footer>
+    </body>
+</html>

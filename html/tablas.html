@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Práctica 4 Tablas</title>
+        <link rel="stylesheet" href="../css/style_theme.css" type="text/css">
+    </head>
+    <body>
+        <!-- (header>h1)+(nav>ul>(li*8))+(main>(section>h2+p)*4)+footer>h5 -->
+         <header>
+             <h1>Práctica 4 Tablas</h1>
+             <a href="../index.html"><img class="img-header" src="../img/homa.png"></a>
+         </header>
+         <nav>
+             <ul>
+                 <li><a href="../html/practica_uno.html">Formatos</a></li>
+                 <li><a href="../html/listas.html">Listas</a></li>
+                 <li><a href="../html/enlaces.html">Enlaces</a></li>
+                 <li><a href="../html/tablas.html">Tablas</a></li>
+                 <li><a href="../html/imagenes.html">Imágenes</a></li>
+                 <li><a href="../html/audio.html">Audio</a></li>
+                 <li><a href="../html/video.html">Video</a></li>
+                 <li><a href="../html/formularios.html">Formularios</a></li>
+             </ul>
+         </nav>
+         <main>
+             <section class="box-oscuro" id="seccion_tabla_simple">
+                 <h2>Tablas simples</h2>
+                 <p>Pastrami tongue tri-tip hamburger cow tip tip beef 
+                     pancetta, loin hamburger prosciutto, cow chop 
+                     tri-tip, ham boudin pig ribs, ham turkey hamburger 
+                     pancetta, pastrami ground corned tri-tip turkey 
+                     cow pastrami short mignon capicola rump. Tri-tip 
+                     ham filet landjaeger ham shoulder ribs loin 
+                     chicken beef, tri-tip ham loin prosciutto, 
+                     kielbasa braunschweiger pig sirloin ham pig 
+                     meatball andouillette, rump sirloin ham loin 
+                     corned, t-bone porchetta ham swine beef, pig filet 
+                     turducken andouillette. Chicken ham ribeye sausage 
+                     tip strip sausage ham prosciutto tip salami 
+                     shoulder porchetta tip tri-tip swine kielbasa 
+                     fatback, shank ham shankle cow ribs, tip t-bone 
+                     sopressata, pig turkey pancetta sausage tip pork 
+                     leberkas ham pancetta. Turducken strip andouille 
+                     brisket. Meatball pig pastrami. Shankle ham ribs 
+                     kielbasa.</p>
+                    <table id="simple">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Dirección</th>
+                                <th>Email</th>
+                                <th>Telefono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--- emmet de 5 filas con 5 columnas (tr>(td*5))*5 --->
+                            <tr>
+                                <td>Rosario</td>
+                                <td>Gomez Farlas</td>
+                                <td>Calle Margaritas #25 Col. Miraflores</td>
+                                <td>charito.gomez@gmail.com</td>
+                                <td>222856910</td>
+                            </tr>
+                            <tr>
+                                <td>Eduardo</td>
+                                <td>Sánchez Macías</td>
+                                <td>Rio Calpan No.1710 Col. San Manuel</td>
+                                <td>lalo.macias@gmail.com</td>
+                                <td>2223192460</td>
+                            </tr>
+                            <tr>
+                                <td>Juan</td>
+                                <td>Chávez Hernández</td>
+                                <td>Calle de la Merced No.1399</td>
+                                <td>juan.caher@gmail.com</td>
+                                <td>2226894515</td>
+                            </tr>
+                            <tr>
+                                <td>Tadeo</td>
+                                <td>Vázquez Quintanilla</td>
+                                <td>Calle broca fraccionamiento Arboledas</td>
+                                <td>tadeo.quintanilla@gmail.com</td>
+                                <td>2225168392</td>
+                            </tr>
+                            <tr>
+                                <td>Olivia</td>
+                                <td>Hernández Muñoz</td>
+                                <td>Calle de las flores No.1208</td>
+                                <td>oliv.inhermoon@gmail.com</td>
+                                <td>2226131254</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            
+                        </tfoot>
+                    </table>
+             </section>
+             <section>
+                 <h2>Tablas Colapsable</h2>
+                 <p>Cow sirloin ham hamburger cow kielbasa tongue loin 
+                     ham kevin ham tip pig bregenwurst, pork pig 
+                     sausage tip ribeye venison cow prosciutto ham ham 
+                     short sausage sausage, swine andouille pig 
+                     chicken, cow bresaola sopressata. Loin kielbasa 
+                     tip pork pork cow pancetta beef pork capicola 
+                     shank. Turducken ham turkey pig tip strip pastrami 
+                     cow cow ham pork bresaola pig pig ham frankfurter. 
+                     Pork cow sausage. Ham spare bregenwurst ham 
+                     fatback beef short hamburger swine cow capicola 
+                     ham tongue pig bresaola ribs leberkas prosciutto. 
+                     Short chicken kielbasa tip pig turkey bregenwurst. 
+                     Cow swine andouillette, tip ham ribs pastrami, 
+                     loin andouille sopressata cow cow jowl ham loin 
+                     ham corned pastrami tip chuck tail, pastrami 
+                     ribeye sirloin sirloin, shankle salami tenderloin 
+                     hamburger, ham chuck cow beef.</p>
+                 <div class="desbordamiento">
+                <table id="tabla2">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Dirección</th>
+                                <th>Email</th>
+                                <th>Telefono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--- emmet de 5 filas con 5 columnas (tr>(td*5))*5 --->
+                            <tr>
+                                <td>Rosario</td>
+                                <td>Gomez Farlas</td>
+                                <td>Calle Margaritas #25 Col. Miraflores</td>
+                                <td>charito.gomez@gmail.com</td>
+                                <td>222856910</td>
+                            </tr>
+                            <tr>
+                                <td>Eduardo</td>
+                                <td>Sánchez Macías</td>
+                                <td>Rio Calpan No.1710 Col. San Manuel</td>
+                                <td>lalo.macias@gmail.com</td>
+                                <td>2223192460</td>
+                            </tr>
+                            <tr>
+                                <td>Juan</td>
+                                <td>Chávez Hernández</td>
+                                <td>Calle de la Merced No.1399</td>
+                                <td>juan.caher@gmail.com</td>
+                                <td>2226894515</td>
+                            </tr>
+                            <tr>
+                                <td>Tadeo</td>
+                                <td>Vázquez Quintanilla</td>
+                                <td>Calle broca fraccionamiento Arboledas</td>
+                                <td>tadeo.quintanilla@gmail.com</td>
+                                <td>2225168392</td>
+                            </tr>
+                            <tr>
+                                <td>Olivia</td>
+                                <td>Hernández Muñoz</td>
+                                <td>Calle de las flores No.1208</td>
+                                <td>oliv.inhermoon@gmail.com</td>
+                                <td>2226131254</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            
+                        </tfoot>
+                    </table>
+                 </div>
+             </section>
+             <section class="box-oscuro">
+                 <h2>Tabla Zebra</h2>
+                 <p>Shankle andouillette cow shankle ham brisket hock 
+                     ball pastrami ribs tip hamburger tail shoulder, 
+                     kielbasa belly brisket. Doner meatball landjaeger, 
+                     cow turkey turducken ham turkey drumstick pig 
+                     steak chuck, ham mignon capicola sirloin. Flank 
+                     turducken cow hamburger ham cow pancetta 
+                     braunschweiger tip porchetta ham beef, round 
+                     hamburger braunschweiger cow chicken ribs loin ham 
+                     ribs tip ribeye cow hamburger, fatback rump beef 
+                     fatback turkey, ham ball kielbasa bierschinken. 
+                     Ball pastrami braunschweiger cow beef cow pig ribs 
+                     chicken. Sausage pig ball bresaola ham porchetta 
+                     pig kevin capicola pig ground brisket ham boudin 
+                     ribs, loin shoulder porchetta. Cow pork chicken 
+                     hamburger pig pancetta ribs tri-tip, bresaola pig 
+                     corned, cow tail braunschweiger.</p>
+                    <div class="desbordamiento">
+                    <table id="tabla3">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Dirección</th>
+                                <th>Email</th>
+                                <th>Telefono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--- emmet de 5 filas con 5 columnas (tr>(td*5))*5 --->
+                            <tr>
+                                <td>Rosario</td>
+                                <td>Gomez Farlas</td>
+                                <td>Calle Margaritas #25 Col. Miraflores</td>
+                                <td>charito.gomez@gmail.com</td>
+                                <td>222856910</td>
+                            </tr>
+                            <tr>
+                                <td>Eduardo</td>
+                                <td>Sánchez Macías</td>
+                                <td>Rio Calpan No.1710 Col. San Manuel</td>
+                                <td>lalo.macias@gmail.com</td>
+                                <td>2223192460</td>
+                            </tr>
+                            <tr>
+                                <td>Juan</td>
+                                <td>Chávez Hernández</td>
+                                <td>Calle de la Merced No.1399</td>
+                                <td>juan.caher@gmail.com</td>
+                                <td>2226894515</td>
+                            </tr>
+                            <tr>
+                                <td>Tadeo</td>
+                                <td>Vázquez Quintanilla</td>
+                                <td>Calle broca fraccionamiento Arboledas</td>
+                                <td>tadeo.quintanilla@gmail.com</td>
+                                <td>2225168392</td>
+                            </tr>
+                            <tr>
+                                <td>Olivia</td>
+                                <td>Hernández Muñoz</td>
+                                <td>Calle de las flores No.1208</td>
+                                <td>oliv.inhermoon@gmail.com</td>
+                                <td>2226131254</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            
+                        </tfoot>
+                    </table>
+                    </div>
+             </section>
+             <section>
+                <h2>Tabla Hover</h2>
+                 <p>Capicola andouillette ham fatback. Pig kielbasa 
+                     frankfurter. Tenderloin pork ball pig round. Rump 
+                     tip tip kevin prosciutto, flank ham drumstick pig 
+                     salami, landjaeger tip steak, pig ham 
+                     braunschweiger cow pig mignon tri-tip bregenwurst, 
+                     beef fatback tip tail round ham boudin porchetta 
+                     ham beef salami, beef shankle ham ground ribs. Ham 
+                     ham bregenwurst, chicken pork tenderloin pig 
+                     leberkas tip chicken cow ribs fatback pig 
+                     prosciutto, tri-tip tail hock tri-tip loin, 
+                     pastrami spare beef ham kevin pig loin prosciutto 
+                     tip sopressata, cow sirloin sopressata. Spare 
+                     venison bregenwurst cow prosciutto ham tri-tip. 
+                     Ribs tenderloin pig pastrami ham beef andouillette 
+                     turducken ball leberkas. Ham pig mignon pork pork 
+                     pig ham porchetta pig sirloin.</p>
+                  <div class="desbordamiento">
+                    <table id="tabla4">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Dirección</th>
+                                <th>Email</th>
+                                <th>Telefono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--- emmet de 5 filas con 5 columnas (tr>(td*5))*5 --->
+                            <tr>
+                                <td>Rosario</td>
+                                <td>Gomez Farlas</td>
+                                <td>Calle Margaritas #25 Col. Miraflores</td>
+                                <td>charito.gomez@gmail.com</td>
+                                <td>222856910</td>
+                            </tr>
+                            <tr>
+                                <td>Eduardo</td>
+                                <td>Sánchez Macías</td>
+                                <td>Rio Calpan No.1710 Col. San Manuel</td>
+                                <td>lalo.macias@gmail.com</td>
+                                <td>2223192460</td>
+                            </tr>
+                            <tr>
+                                <td>Juan</td>
+                                <td>Chávez Hernández</td>
+                                <td>Calle de la Merced No.1399</td>
+                                <td>juan.caher@gmail.com</td>
+                                <td>2226894515</td>
+                            </tr>
+                            <tr>
+                                <td>Tadeo</td>
+                                <td>Vázquez Quintanilla</td>
+                                <td>Calle broca fraccionamiento Arboledas</td>
+                                <td>tadeo.quintanilla@gmail.com</td>
+                                <td>2225168392</td>
+                            </tr>
+                            <tr>
+                                <td>Olivia</td>
+                                <td>Hernández Muñoz</td>
+                                <td>Calle de las flores No.1208</td>
+                                <td>oliv.inhermoon@gmail.com</td>
+                                <td>2226131254</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            
+                        </tfoot>
+                    </table>
+                    </div>
+             </section>
+             <section class="box-oscuro">
+                <h2>Tabla X</h2>
+                 <p>Corned cow tip salami turducken ham sirloin short 
+                     pig shankle bierschinken, pig pork biltong brisket 
+                     ham cow boudin leberkas bregenwurst. Ground 
+                     biltong ham bresaola ham pancetta bierschinken ham 
+                     capicola. Bresaola pig tail pig andouille pork 
+                     venison biltong, spare meatball bierschinken, 
+                     capicola tail chop tip pork. Pig shankle ham 
+                     hamburger ham tongue sopressata kielbasa beef 
+                     meatball. Tail ham capicola, swine tip brisket tip 
+                     tail, capicola tongue loin cow chuck, loin 
+                     andouillette fatback ground sirloin. Biltong strip 
+                     sirloin andouille, pig cow belly jerky short, 
+                     hamburger cow ribs porchetta cow tenderloin ham 
+                     beef biltong pig ham strip landjaeger bierschinken 
+                     pig shankle pork doner meatball ball, sirloin 
+                     shank biltong, belly pancetta tip venison. Shankle 
+                     ribs ribs tri-tip tongue, pork pig turducken pig 
+                     leberkas chuck pig sirloin braunschweiger, ham 
+                     boudin ham belly, chuck shankle bregenwurst, chuck 
+                     ham ham shank pancetta ham loin venison 
+                     braunschweiger cow fatback tongue rump landjaeger 
+                     boudin.</p>
+                 <div class="desbordamiento">
+                    <table class="tabla-style-1">
+                        <thead>
+                            <tr>
+                                <th>Nombre</th>
+                                <th>Apellidos</th>
+                                <th>Dirección</th>
+                                <th colspan="2">Email</th>
+                                <th colspan="2">Telefono</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <!--- emmet de 5 filas con 5 columnas (tr>(td*5))*5 --->
+                            <tr>
+                                <td>Rosario</td>
+                                <td>Gomez Farlas</td>
+                                <td>Calle Margaritas #25 Col. Miraflores</td>
+                                <td>charito.gomez@gmail.com</td>
+                                <td>charo.gom@hotmail.com</td>
+                                <td>222856910</td>
+                                <td>12090827130</td>
+                            </tr>
+                            <tr>
+                                <td>Eduardo</td>
+                                <td>Sánchez Macías</td>
+                                <td>Rio Calpan No.1710 Col. San Manuel</td>
+                                <td>lalo.macias@gmail.com</td>
+                                <td></td>
+                                <td>2223192460</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Juan</td>
+                                <td>Chávez Hernández</td>
+                                <td>Calle de la Merced No.1399</td>
+                                <td>juan.caher@gmail.com</td>
+                                <td>juan.hernandez@hotmail.com</td>
+                                <td>2226894515</td>
+                                <td>30127120908</td>
+                            </tr>
+                            <tr>
+                                <td>Tadeo</td>
+                                <td>Vázquez Quintanilla</td>
+                                <td>Calle broca fraccionamiento Arboledas</td>
+                                <td>tadeo.quintanilla@gmail.com</td>
+                                <td></td>
+                                <td>2225168392</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>Olivia</td>
+                                <td>Hernández Muñoz</td>
+                                <td>Calle de las flores No.1208</td>
+                                <td>oliv.inhermoon@gmail.com</td>
+                                <td>liv.hermun@hotmail.com</td>
+                                <td>2226131254</td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            
+                        </tfoot>
+                    </table>
+                    </div>
+             </section>
+         </main>
+         <footer>
+             <h5>Elaborado por Airam Jael Rodríguez Muñoz</h5>
+         </footer>
+    </body>
+</html>
